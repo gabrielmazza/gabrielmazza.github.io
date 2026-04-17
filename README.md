@@ -1,3 +1,5 @@
+EM CONSTRUÇÃO
+
 # Gabriel Mazza 👋
 
 Bem-vindo ao meu portfólio! Aqui você encontra uma seleção dos meus principais projetos, organizados por área.
