@@ -1,0 +1,63 @@
+{
+  "categorias": {
+    "academicos": {
+      "titulo": "Projetos Acadêmicos",
+      "descricao": "Trabalhos práticos, pesquisas e projetos desenvolvidos durante meus estudos.",
+      "subcategorias": {
+        "trabalhos": {
+          "titulo": "Trabalhos e Pesquisas",
+          "projetos": [
+            {
+              "id": "projeto-academico-1",
+              "titulo": "Projeto Universitário 1",
+              "resumo": "Breve descrição deste primeiro projeto acadêmico e seus objetivos.",
+              "desafio": "Problema abordado no trabalho acadêmico ou escopo da pesquisa.",
+              "solucao": "Desenvolvimento do algoritmo ou protótipo que resolveu o problema proposto.",
+              "tecnologias": ["C", "Python", "Jupyter"]
+            },
+            {
+              "id": "projeto-academico-2",
+              "titulo": "Projeto Universitário 2",
+              "resumo": "Breve descrição do segundo projeto, tecnologias utilizadas e resultados.",
+              "desafio": "Análise de um grande volume de dados para disciplina de Estatística.",
+              "solucao": "Automação de planilhas e geração visual de gráficos para o relatório final.",
+              "tecnologias": ["R", "Pandas", "Matplotlib"]
+            }
+          ]
+        }
+      }
+    },
+    "profissionais": {
+      "titulo": "Projetos Profissionais",
+      "descricao": "Trabalhos desenvolvidos para clientes e empresas, focados em gerar valor e resolver problemas reais.",
+      "subcategorias": {
+        "sites": {
+          "titulo": "Sites Profissionais",
+          "projetos": [
+            {
+              "id": "projeto-site-1",
+              "titulo": "Landing Page - Cliente X",
+              "resumo": "Desenvolvimento de uma página focada em conversão utilizando HTML, CSS e JavaScript.",
+              "desafio": "O cliente precisava de uma página extremamente rápida para captação de leads no lançamento de um produto.",
+              "solucao": "Desenvolvimento de uma Landing Page responsiva, otimizada para SEO e indexação rápida no Google.",
+              "tecnologias": ["HTML5", "CSS3", "JavaScript Vanilla"]
+            }
+          ]
+        },
+        "crm-erp": {
+          "titulo": "Sistemas CRM-ERP",
+          "projetos": [
+            {
+              "id": "projeto-crm-1",
+              "titulo": "Sistema de Gestão Interna",
+              "resumo": "Dashboard administrativo e controle de fluxo de caixa para empresas de médio porte.",
+              "desafio": "A empresa cliente precisava unificar seus controles financeiros e gestão de clientes, que antes eram espalhados em dezenas de planilhas. A ausência de um sistema centralizado causava perda de informações.",
+              "solucao": "Construímos um sistema ERP e CRM integrado e sob medida, permitindo cadastro rápido de clientes, acompanhamento de funil de vendas, e geração de relatórios de fluxo de caixa.",
+              "tecnologias": ["React.js", "Node.js", "PostgreSQL", "Docker"]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

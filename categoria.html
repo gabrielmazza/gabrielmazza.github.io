@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carregando... - Gabriel Mazza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Componente Header -->
+    <div id="header-component"></div>
+
+    <main>
+        <section class="container">
+            <!-- Os Titulos vem do data.json pelo ID passado na barra de Endereçamento do navegador  -->
+            <h2 id="categoria-titulo">Carregando...</h2>
+            <p id="categoria-descricao"></p>
+            
+            <!-- Aqui os sub-blocos e Projetos Serão inseridos dinamicamente pelo script.js-->
+            <div id="projetos-container">
+               <!-- Subcategorias Serão Renderizadas Aqui Pelo Script-->
+            </div>
+        </section>
+    </main>
+
+    <!-- Componente Footer -->
+    <div id="footer-component"></div>
+
+    <!-- Inicializa Módulos -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
