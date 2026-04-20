@@ -1,6 +1,7 @@
 import { renderHeader, renderFooter } from './components/layout.js';
 import { initCategoria } from './pages/categoria.js';
 import { initProjeto } from './pages/projeto.js';
+import { initHome } from './pages/home.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Renderiza Header e Footer globalmente, independente da página
@@ -14,5 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         initCategoria();
     } else if (path.includes('projeto.html')) {
         initProjeto();
+    } else if (path === '/' || path.includes('index.html')) {
+        initHome();
     }
 });

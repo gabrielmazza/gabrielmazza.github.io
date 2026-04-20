@@ -10,17 +10,20 @@
     <!-- Componente Header -->
     <div id="header-component"></div>
 
-    <main>
-        <section class="container">
-            <!-- Os Titulos vem do data.json pelo ID passado na barra de Endereçamento do navegador  -->
-            <h2 id="categoria-titulo">Carregando...</h2>
-            <p id="categoria-descricao"></p>
-            
-            <!-- Aqui os sub-blocos e Projetos Serão inseridos dinamicamente pelo script.js-->
-            <div id="projetos-container">
-               <!-- Subcategorias Serão Renderizadas Aqui Pelo Script-->
-            </div>
-        </section>
+    <main class="container py-section page-intro">
+        <!-- Navegação Injetada via JS -->
+        <nav id="breadcrumbs" class="breadcrumbs" aria-label="Breadcrumb"></nav>
+        <div id="back-top" class="mt-6"></div>
+
+        <!-- Os Titulos vem do data.json pelo ID passado na barra de Endereçamento do navegador  -->
+        <p id="categoria-kicker" class="kicker"></p>
+        <h1 id="categoria-titulo">Carregando...</h1>
+        <p id="categoria-descricao" class="lead"></p>
+        
+        <!-- Aqui os sub-blocos e Projetos Serão inseridos dinamicamente pelo script.js-->
+        <div id="projetos-container" class="editorial-rule mt-12" style="padding-top:2.5rem;">
+           <!-- Subcategorias Serão Renderizadas Aqui Pelo Script-->
+        </div>
     </main>
 
     <!-- Componente Footer -->

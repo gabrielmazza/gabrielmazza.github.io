@@ -2,22 +2,38 @@
   "categorias": {
     "academicos": {
       "titulo": "Projetos Acadêmicos",
-      "descricao": "Trabalhos práticos, pesquisas e projetos desenvolvidos durante meus estudos.",
+      "descricao": "Trabalhos práticos, pesquisas e projetos desenvolvidos durante a realização do curso de Engenharia de Computação na Universidade de Caxias do Sul.",
       "subcategorias": {
         "trabalhos": {
-          "titulo": "Trabalhos e Pesquisas",
+          "titulo": "Projetos",
           "projetos": [
             {
               "id": "projeto-academico-1",
-              "titulo": "Projeto Universitário 1",
-              "resumo": "Breve descrição deste primeiro projeto acadêmico e seus objetivos.",
-              "desafio": "Problema abordado no trabalho acadêmico ou escopo da pesquisa.",
-              "solucao": "Desenvolvimento do algoritmo ou protótipo que resolveu o problema proposto.",
-              "tecnologias": ["C", "Python", "Jupyter"]
+              "titulo": "K-Star Patrol - Assembly x86",
+              "resumo": "Este projeto consiste no desenvolvimento de um jogo baseado no clássico K-Star Patrol da CBS Software, implementado puramente em linguagem Assembly para a arquitetura Intel 8086. O trabalho foi realizado como requisito da disciplina de Arquitetura de Computadores do curso de Engenharia de Computação da Universidade de Caxias do Sul (UCS).",
+              "desafio": "Durante o desenvolvimento do projeto, diversas dificuldades foram encontradas, especialmente relacionadas às limitações da programação em Assembly para a arquitetura 8086. Principalmente as questões relacionadas ao controle de movimentação, colisão e geração de números aleatórios. A programação em Assembly traz a necessidade de compreender de forma aprofundada o funcionamento do hardware como porexemplo para as configurações da memória de vídeo ou então para as portas de entrada e saída a fim de conseguir reproduzir som.",
+              "solucao": "Apesar das dificuldades, o trabalho proporcionou um grande aprendizado, as limitações do Assembly e a melhor compreensão da interação entre software e hardware trouxeram uma perspectiva diferente quanto a programação em geral, além de demonstrar a importância das otimizações de recursos nos sistemas com limitações de capacidade. Fora isso, o trabalho proporcionou o contato com soluções de problemas já consolidados como por exemplo a detecção de colisão utilizando o método Separating Axis Theorem e a geração de números aleatórios.",
+              "imagens": [
+                {
+                  "url": "img/k-star-1.png",
+                  "legenda": "Menu inicial do jogo"
+                },
+                {
+                  "url": "img/k-star-2.png",
+                  "legenda": "Tela de jogo mostrando o personagem principal e os inimigos"
+                }
+              ],
+              "tecnologias": ["Assembly x86", "GUI Turbo Assembler"],
+              "links": [
+                {
+                  "label": "Repositório no GitHub",
+                  "url": "https://github.com/gabrielmazza/K-Star-Patrol-ASMx86"
+                }
+              ]
             },
             {
               "id": "projeto-academico-2",
-              "titulo": "Projeto Universitário 2",
+              "titulo": "Análise de Algoritmos - Universidade",
               "resumo": "Breve descrição do segundo projeto, tecnologias utilizadas e resultados.",
               "desafio": "Análise de um grande volume de dados para disciplina de Estatística.",
               "solucao": "Automação de planilhas e geração visual de gráficos para o relatório final.",
@@ -33,6 +49,38 @@
       "subcategorias": {
         "sites": {
           "titulo": "Sites Profissionais",
+          "projetos": [
+            {
+              "id": "projeto-site-1",
+              "titulo": "Landing Page - Cliente X",
+              "resumo": "Desenvolvimento de uma página focada em conversão utilizando HTML, CSS e JavaScript.",
+              "desafio": "O cliente precisava de uma página extremamente rápida para captação de leads no lançamento de um produto.",
+              "solucao": "Desenvolvimento de uma Landing Page responsiva, otimizada para SEO e indexação rápida no Google.",
+              "tecnologias": ["HTML5", "CSS3", "JavaScript Vanilla"]
+            }
+          ]
+        },
+        "crm-erp": {
+          "titulo": "Sistemas CRM-ERP",
+          "projetos": [
+            {
+              "id": "projeto-crm-1",
+              "titulo": "Sistema de Gestão Interna",
+              "resumo": "Dashboard administrativo e controle de fluxo de caixa para empresas de médio porte.",
+              "desafio": "A empresa cliente precisava unificar seus controles financeiros e gestão de clientes, que antes eram espalhados em dezenas de planilhas. A ausência de um sistema centralizado causava perda de informações.",
+              "solucao": "Construímos um sistema ERP e CRM integrado e sob medida, permitindo cadastro rápido de clientes, acompanhamento de funil de vendas, e geração de relatórios de fluxo de caixa.",
+              "tecnologias": ["React.js", "Node.js", "PostgreSQL", "Docker"]
+            }
+          ]
+        }
+      }
+    },
+    "pessoais": {
+      "titulo": "Projetos Pessoais",
+      "descricao": "Trabalhos desenvolvidos para fins pessoais, explorando novas tecnologias e ideias criativas.",
+      "subcategorias": {
+        "sites": {
+          "titulo": "Sites Pessoais",
           "projetos": [
             {
               "id": "projeto-site-1",

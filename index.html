@@ -3,40 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Mazza - Portfólio</title>
+    <title>Gabriel Mazza — Portfólio de Desenvolvedor</title>
+    <meta name="description" content="Portfolio editorial com projetos acadêmicos e profissionais (sites e CRMs)." />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- O componente Header será injetado aqui -->
     <div id="header-component"></div>
 
-    <main>
-        <!-- BIO -->
-        <section id="bio" class="container">
-            <h2>Sobre Mim</h2>
-            <div class="bio-content">
-                <p>Olá! Eu sou o Gabriel Mazza. Bem-vindo ao meu portfólio!</p>
-                <p>Sou um desenvolvedor apaixonado por criar soluções eficientes. Aqui você encontrará um pouco da minha trajetória, minhas experiências acadêmicas e os projetos profissionais que venho desenvolvendo ao longo da minha carreira, com foco em desenvolvimento web e sistemas corporativos.</p>
+    <main class="container">
+        <!-- Hero (Sua Bio Antiga Transformada) -->
+        <section class="hero">
+            <div class="left">
+                <div style="display:flex;flex-wrap:wrap;gap:.5rem;">
+                    <span class="chip">Portfolio</span>
+                    <span class="chip chip-accent">v2026.04</span>
+                    <span class="chip chip-success">online</span>
+                </div>
+                <h1>
+                    Gabriel Mazza<span class="text-accent">.</span><br />
+                    <em class="text-muted">Desenvolvedor</em><br />
+                    <span class="text-glow-primary">full-stack</span><span class="text-accent">_</span>
+                </h1>
+            </div>
+            <div class="right">
+                <div class="editorial-rule" style="padding-top:1rem;">
+                    <p>
+                        <strong>Olá! Bem-vindo ao meu portfólio!</strong><br><br>
+                        Sou um desenvolvedor apaixonado por criar soluções eficientes. Aqui você encontrará um pouco da minha trajetória, minhas experiências acadêmicas e os <span class="marker">projetos profissionais</span> que venho desenvolvendo ao longo da minha carreira, com foco em desenvolvimento web e sistemas corporativos.
+                    </p>
+                    <p class="font-mono uppercase text-muted mt-4">
+                        <span style="color:var(--success)">●</span>
+                        Disponível para oportunidades · Brasil
+                    </p>
+                </div>
             </div>
         </section>
 
-        <!-- CATEGORIAS -->
-        <section id="categorias" class="container">
-            <h2>Portfólio</h2>
-            <div class="projetos-grid">
-                
-                <div class="projeto-card">
-                    <h3>Projetos Acadêmicos</h3>
-                    <p>Trabalhos práticos, pesquisas e projetos desenvolvidos durante meus estudos.</p>
-                    <a href="categoria.html?id=academicos" class="btn">Ver Categoria</a>
-                </div>
-                
-                <div class="projeto-card">
-                    <h3>Projetos Profissionais</h3>
-                    <p>Trabalhos desenvolvidos para clientes e empresas, divididos em Sites e Sistemas CRM-ERP.</p>
-                    <a href="categoria.html?id=profissionais" class="btn">Ver Categoria</a>
-                </div>
+        <!-- Stack strip -->
+        <section class="editorial-rule" style="padding-top:1.5rem;padding-bottom:.5rem;">
+            <div class="stack-strip">
+                <span>Stack:</span>
+                <span>// React.js</span>
+                <span>// Node.js</span>
+                <span>// PostgreSQL</span>
+                <span>// Vanilla JS</span>
+                <span>// HTML/CSS</span>
+            </div>
+        </section>
 
+        <!-- Categorias -->
+        <section class="editorial-rule mt-10" style="padding-top:2.5rem;padding-bottom:5rem;">
+            <div class="section-title">
+                <h2>Portfólio <em class="text-glow-primary" style="font-style:normal">selecionado</em></h2>
+                <span id="home-categories-count" class="font-mono uppercase text-muted">Carregando...</span>
+            </div>
+
+            <div id="home-categories-grid" class="cards-grid two">
+                <!-- As categorias do data.json serão renderizadas aqui pelo JavaScript -->
             </div>
         </section>
     </main>
