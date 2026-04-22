@@ -1,16 +1,44 @@
-## Hi there 👋
+EM CONSTRUÇÃO
 
-<!--
-**gabrielmazza/gabrielmazza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Gabriel Mazza 👋
 
-Here are some ideas to get you started:
+Bem-vindo ao meu portfólio! Aqui você encontra uma seleção dos meus principais projetos, organizados por área.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🎓 Projetos Acadêmicos
+
+Projetos desenvolvidos durante minha formação acadêmica.
+
+| Projeto | Descrição | Tecnologias | Link |
+|---------|-----------|-------------|------|
+| — | — | — | — |
+
+---
+
+## 💼 Projetos Profissionais
+
+### 🌐 Sites
+
+Sites desenvolvidos para clientes ou como projetos pessoais.
+
+| Projeto | Descrição | Tecnologias | Link |
+|---------|-----------|-------------|------|
+| — | — | — | — |
+
+---
+
+### 🗂️ Sistemas ERP-CRM
+
+Sistemas de gestão empresarial desenvolvidos para diferentes segmentos.
+
+| Projeto | Descrição | Tecnologias | Link |
+|---------|-----------|-------------|------|
+| — | — | — | — |
+
+---
+
+## 📫 Contato
+
+- LinkedIn: [linkedin.com/in/gabrielmazza](https://linkedin.com/in/gabrielmazza)
+- E-mail: <!-- seu e-mail aqui -->
