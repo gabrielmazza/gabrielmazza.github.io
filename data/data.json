@@ -31,13 +31,44 @@
                 }
               ]
             },
-            {
+{
               "id": "projeto-academico-2",
-              "titulo": "Análise de Algoritmos - Universidade",
-              "resumo": "Breve descrição do segundo projeto, tecnologias utilizadas e resultados.",
-              "desafio": "Análise de um grande volume de dados para disciplina de Estatística.",
-              "solucao": "Automação de planilhas e geração visual de gráficos para o relatório final.",
-              "tecnologias": ["R", "Pandas", "Matplotlib"]
+              "titulo": "Simulador de Memória Cache",
+              "resumo": "Este programa implementa uma simulação de cache, que permite avaliar o desempenho de diferentes políticas de substituição e escrita em um sistema de cache. Ele lê um arquivo de entrada contendo uma sequência de endereços de memória e operações (leitura ou escrita), e simula o comportamento da cache ao acessar esses endereços.",
+              "desafio": "A correta implementação da simulação e das políticas exigiu o gerenciamento adequado de estruturas de dados que imitassem perfeitamente o funcionamento do hardware, lidando com políticas de escrita (Write-through e Write-back) e substituição (LFU, LRU e Random) com precisão. O desafio maior foi garantir a eficiência na simulação do mapeamento dos endereços nas linhas e conjuntos da cache escolhidos e do monitoramento minucioso de estatísticas como taxa de acerto e tempo médio de acesso.",
+              "solucao": "O código foi organizado em estruturas principais (`CacheLinha`, `CacheConjunto` e `Cache`) para simular fielmente a hierarquia. A modularização das funcionalidades assegurou o controle para operações como verificação de *hits* e *misses*, a substituição de blocos baseada nas métricas computadas e o processamento de grandes volumes de dados de entrada. Um controle e liberação estritos da memória alocada dinamicamente evitam e mitigam eventuais *leaks*.",
+              "imagens": [],
+              "tecnologias": ["C++", "C"],
+              "links": [
+                {
+                  "label": "Repositório no GitHub",
+                  "url": "https://github.com/gabrielmazza/SimuladorMemoriaCache"
+                }
+              ]
+            },
+            {
+              "id": "projeto-academico-3",
+              "titulo": "Filtros de Imagem Paralelos (LaPlace e Mediana)",
+              "resumo": "Projeto que aplica paralelismo com memória compartilhada na filtragem de imagens usando os filtros Laplaciano e de Mediana. O sistema permite avaliar o desempenho, medindo o speedup e a eficiência ao variar o número de processos (até 4) e o tamanho da matriz de convolução (3x3, 5x5 e 7x7).",
+              "desafio": "A aplicação de paralelismo exige lidar com overhead de sincronização, balanceamento de carga e a correta divisão dos recursos compartilhados. Observou-se que com máscaras menores (3x3), a comunicação pode sobrepor os ganhos do paralelismo, limitando a eficiência a 30%. Já com máscaras maiores (5x5 e 7x7) e processamento mais intensivo, escalar de forma não linear torna-se outro desafio prático para gerir recursos.",
+              "solucao": "Optou-se pela implementação baseada em multiprocessamento com memória compartilhada para amortizar adequadamente o custo computacional nas matrizes mais pesadas. Foi construído um sistema que processa a aplicação distribuída dos filtros e afere com precisão tempos de 1 a 4 execuções paralelas. Dessa forma, as métricas validaram a eficiência da ferramenta, alcançando speedups expressivos (até 2,79) e eficiências consistentes de cerca de 70% com as máscaras maiores.",
+                "imagens": [
+                {
+                  "url": "img/imgOriginal.png",
+                  "legenda": "Imagem sem filtros aplicados"
+                },
+                {
+                  "url": "img/imgFiltrada.png",
+                  "legenda": "Imagem após aplicação do filtro"
+                }
+              ],
+              "tecnologias": ["C", "Processos", "Memória Compartilhada", "Processamento de Imagens"],
+              "links": [
+                {
+                  "label": "Repositório",
+                  "url": "https://github.com/gabrielmazza/FiltroLaPlaceFiltroMediana"
+                }
+              ]
             }
           ]
         }

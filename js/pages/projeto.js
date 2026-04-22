@@ -124,11 +124,7 @@ export async function initProjeto() {
             `;
         } else {
             // Placeholder Vazio
-            imagemContent = `
-                <div class="brutal-box image-box mt-16">
-                    <span class="font-mono uppercase text-muted">[ imagem do projeto ]</span>
-                </div>
-            `;
+            imagemContent = ``;
         }
 
         titleBlock.innerHTML = `
